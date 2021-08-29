@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+}
+.Container{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Login{
+    width:320px;
+    height: 530px;
+    box-shadow: 
+    -10px -10px 15px rgba(0,0,0,0.2),
+    10px 10px 15px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginDisplay{
+    background-color: #301a64;
+    width: 97%;
+    height:100px ;
+    color:#fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding:80px 0px 5px 10px ;
+}
+.loginDisplay h1{
+    padding:0px 0px 5px 10px;
+}
+.userandpass{
+    position: relative;
+    top:-25px;
+    padding:10px;
+    border-radius: 25px 25px 0px 0px;
+    background-color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    Padding:20px;
+
+}
+.box{
+    box-shadow:
+    -10px -10px 15px rgba(224,115,20,0.2),
+    10px 10px 15px rgba(224,115,20,0.2);
+    padding:10px;
+    border-radius: 10px;
+}
+input{
+    font-size: 18px;
+    margin:10px 0px ;
+    width:100%;
+    outline:none;
+    border:none;
+    
+
+
+}
+p{
+    color:#ccf;
+    text-align: center;
+    font-size: 17px;
+}
+.loginButton{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    width:200px;
+    padding:7px 0px;
+    border-radius: 50px;
+    color:#fff;
+    background-color: #301a64;
+    font-size: 17px;
+    margin:15px 0px;
+    border:none;
+}
+.SocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:21px 0px;
+    width: 80%;
+}
+.twitter{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 100px;
+    padding:10px;
+    color:#fff;
+    background-color: royalblue;
+    letter-spacing: 1px;
+    margin-right: 10px;
+
+
+}
+.Skype{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 100px;
+    padding:10px;
+    color:#fff;
+    background-color: #301a64;
+    letter-spacing: 1px;
+
+
+}
+.bottom{
+    height: 10px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #301a64;
+    margin-bottom: 10px;
+}
